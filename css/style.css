@@ -1,0 +1,2274 @@
+/* ============font link start-=============== */
+@import url('https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,200;7..72,300;7..72,400;7..72,500;7..72,600;7..72,700;7..72,800;7..72,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@100;200;300;400;500;600;700&display=swap');
+
+/* -----------------font link end-------------- */
+/* ==================common css start================ */
+*{
+    padding: 0%;
+    margin: 0%;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,ul,ol,p{
+    padding: 0%;
+    margin: 0%;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.common_head h2 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: var(--literata);
+    color: var(--primary_color);
+    text-align: center;
+}
+ 
+
+
+/* --------------common css part end-------------- */
+/* ===============back to top button============== */
+.back_to_top{
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--brand_color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--brand_color);
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+    visibility: hidden;
+    opacity: 0;
+    transition: all linear .3s;
+}
+.go_top{
+    visibility: visible;
+    opacity: 1;
+    animation: arrow_button 1s;
+    z-index: 999;
+}
+.back_to_top:hover{
+    background: var(--brand_color);
+    color: #121212;
+}
+@keyframes arrow_button{
+    from{
+        bottom: -10% ;
+    }
+    to{
+        bottom: 10%;
+    }
+}
+/* --------------back to top button---------------- */
+/* ============veriable css part start========== */
+:root {
+    --brand_color: #937334;
+    --primary_color: #ffff;
+    --background_color: #0E0E10;
+    --secondary_color:#121212;
+    --IBM_PLEX: 'IBM Plex Sans', sans-serif;
+    --literata: 'Literata', serif;
+}
+
+/* -------------veriable css part end-------------- */
+/* ===========menu_bar_css start=========== */
+.main_menu {
+    width: 100%;
+    height: 51px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.menu_fixed {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: var(--background_color);
+    z-index: 999;
+    animation: slide 1s ;
+}
+@keyframes slide{
+    from{
+        top: -20%;
+    }
+    to{
+        top: 0;
+    }
+}
+.menu_logo_img{
+    width: 145px;
+    height: 50px;
+}
+
+.main_menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.main_menu ul li a {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--IBM_PLEX);
+    color: var(--primary_color) !important;
+    position: relative;
+    overflow: hidden;
+    transition: all linear 0.3s;
+    padding: 0% !important;
+    margin-right: 25px;
+    
+}
+.main_menu ul li a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: var(--brand_color);
+    top: 95%;
+    left: 100%;
+    transition: all linear .4s;
+    overflow: visible;
+}
+
+.main_menu ul li a:hover::after {
+    left: 0;
+    color: var(--brand_color) !important;
+}
+
+.main_menu .menu_icon a {
+    color: var(--primary_color);
+    margin-left: 25px;
+}
+
+.menu_icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.button a{
+    width: 150px;
+    height: 45px;
+    border-radius: 20px;
+    background: var(--brand_color);
+    border: 1px solid var(--brand_color);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--IBM_PLEX);
+    color: var(--background_color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all linear .3s;
+}
+.button a:hover{
+    background: transparent;
+    color: var(--primary_color);
+}
+.main_menu .menu_icon a:hover {
+    color: var(--brand_color);
+}
+
+.src_item {
+    background: transparent;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    transition: all linear 0.3s;
+}
+
+.src_item:hover {
+    border-color: var(--brand_color);
+}
+
+.src_icon {
+    color: #D9D9D9;
+    border-radius: 50%;
+    padding: 5px;
+    transition: all linear 0.3s;
+}
+
+.src_item:hover .src_icon {
+    border-color: var(--brand_color);
+}
+
+.src_text {
+    outline: none;
+    border: none;
+    width: 0;
+    height: 0;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--IBM_PLEX);
+    color: var(--primary_color);
+    padding-left: 15px;
+    text-align: center;
+    visibility: hidden;
+    transition: all linear 0.3s;
+}
+
+.src_item:hover .src_text {
+    visibility: visible;
+    height: 25px;
+    width: 150px;
+}
+
+/* ------------------ menu css end --------------- */
+/* ==================== banner css start =================== */
+#banner {
+    width: 100%;
+    background: url(../image/banner-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 171px 0 50px;
+}
+
+.banner_head h1 {
+    width: 443px;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: var(--literata);
+    color: var(--primary_color);
+    text-transform: uppercase;
+    margin-top: 38px;
+    z-index: 0;
+}
+
+.banner_head h1 span {
+    color: var(--brand_color);
+}
+.banner_button{
+    display: flex;
+    gap: 10px;
+}
+.banner_button_col a {
+    height: 50px;
+    width: 50px;
+    background: transparent;
+    border-radius: 50px;
+    border: 1px solid var(--brand_color);
+    overflow: hidden;
+    transition: all linear 0.3s;
+    margin: 73px 0 0 10px;
+}
+ 
+.banner_button_col a:hover {
+    width: 200px;
+    height: 50px;
+}
+
+.banner_button_col a .banner_icon_img {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: transparent;
+    padding: 10px;
+    box-shadow: -3px 1px 16px 10px #937334;
+}
+.apple img{
+    width: 24px !important;
+    height: 28px;
+    margin-left: 2px;
+}
+.banner_button_col a span {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--literata);
+    color: var(--primary_color);
+    margin-left: 14px;
+}
+
+.banner_image {
+    position: relative;
+    text-align: center;
+}
+
+.banner_image .banner_img_payer {
+    height: 70px;
+    width: 101px;
+}
+
+.phone_frem {
+    background: url(../image/frem.png);
+    background-repeat: no-repeat;
+    width: 242px !important;
+    height: 498px;
+    margin-left: 200px;
+}
+
+.phone_img {
+    width: 216px !important;
+    height: 470px;
+    margin-top: 18px;
+    margin-left: 11px;
+    cursor: pointer;
+}
+
+.phone_img img {
+    margin-top: 15px;
+    border-radius: 50px;
+}
+
+.banner_img_payer .img_payer {
+    width: 101px;
+    height: 70px;
+    position: absolute;
+    top: 273px;
+    right: 430px;
+    z-index: 998;
+}
+
+.banner_img_payer span {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--literata);
+    color: #000;
+    position: absolute;
+    top: 288px;
+    right: 451px;
+    z-index: 999;
+}
+
+.img_safe_and_esey .safe_and_esey {
+    width: 121px;
+    height: 125px;
+    position: absolute;
+    top: -34px;
+    right: 115px;
+    z-index: 998;
+}
+
+.img_safe_and_esey span {
+    width: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--literata);
+    color: #000;
+    position: absolute;
+    top: -14px;
+    right: 153px;
+    z-index: 999;
+}
+
+/* --------------- banner css end --------------- */
+/* ============== about css start ============= */
+#about_part {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: var(--background_color);
+}
+
+.about_img {
+    width: 550px;
+    height: 600px;
+    margin-top: 61px;
+    background: url(../image/about-bg.png);
+    background-repeat: no-repeat;
+}
+
+.about_img img {
+    width: 400px !important;
+    height: 530px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.about_head h2 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: var(--IBM_PLEX);
+    color: var(--primary_color);
+    position: relative;
+}
+
+.about_head p {
+    width: 431px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--IBM_PLEX);
+    color: var(--primary_color);
+    margin: 34px 0 23px;
+}
+
+.app_adveantae h3 {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: var(--IBM_PLEX);
+    color: var(--primary_color);
+    margin-bottom: 23px;
+}
+
+.accordin {
+    width: 446px;
+    cursor: pointer;
+}
+
+.accordin .contentBx {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.accordin .contentBx .label {
+    position: relative;
+    padding: 24px 0 24px 10px;
+    border: 2px solid #000;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: var(--secondary_color);
+    box-shadow: 0px 7px 13px 0px rgba(191, 185, 185, 0.51);
+    display: flex;
+    flex-wrap: wrap;
+    transition: all linear .3s;
+}
+
+.accordin .contentBx .label:hover {
+    border: 2px solid rgba(147, 115, 52, 0.803);
+}
+
+.accordin .contentBx .label h4 {
+    width: 365px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--IBM_PLEX);
+    color: #fff;
+}
+
+.accordin .contentBx .label .share {
+    color: #fff;
+    margin-right: 9px;
+}
+
+.accordin .contentBx .label .arrow {
+    color: #fff;
+    margin-left: 9px;
+}
+
+.accordin .contentBx .contant {
+    position: relative;
+    background: transparent;
+    height: 0;
+    overflow: hidden;
+    overflow-y: auto;
+    transition: all linear 0.2s;
+}
+
+.accordin .contentBx .contant p {
+    width: 420px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--IBM_PLEX);
+    color: var(--primary_color);
+}
+
+.accordin .contentBx .contant p span a {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--IBM_PLEX);
+    color: var(--brand_color);
+}
+
+.accordin .contentBx.active .label {
+    box-shadow: none;
+    border: 2px solid var(--brand_color);
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.accordin .contentBx.active .contant {
+    height: auto;
+    padding: 10px;
+    border: 1px solid var(--brand_color);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.read_button a {
+    width: 112px;
+    height: 35px;
+    background: var(--primary_color);
+    border: 1px solid #fff;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--IBM_PLEX);
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 36px;
+    transition: all linear 0.3s;
+}
+
+.read_button a:hover {
+    background: transparent;
+    color: var(--brand_color);
+    border-color: var(--brand_color);
+}
+
+/* ---------------- about css end ----------------- */
+/* ============== five_pillars css start ============ */
+#five_pillars {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: var(--background_color);
+}
+
+.five_pillars_head h2 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: var(--literata);
+    color: var(--primary_color);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.five_pillars_head h2 span {
+    color: var(--brand_color);
+}
+
+.five_pillars_islam {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.five_pillars_main_box {
+    width: 272px;
+    padding-top: 45px;
+    position: relative;
+}
+
+.image_box {
+    width: 90px;
+    height: 90px;
+    border: 1px solid var(--brand_color);
+    border-radius: 50%;
+    background: var(--primary_color);
+    padding: 10px;
+    position: absolute;
+    top: 100px;
+    left: 87px;
+    transition: all linear 0.3s;
+    cursor: pointer;
+}
+
+.five_pillars_main_box:hover .image_box {
+    background: var(--brand_color);
+    border-color: var(--primary_color);
+    top: 0;
+}
+
+.five_pillar_text {
+    width: 272px;
+    padding: 60px 16px 20px;
+    background: var(--primary_color);
+    border-radius: 20px;
+    transition: all linear 0.3s;
+    cursor: pointer;
+}
+
+.five_pillars_main_box:hover .five_pillar_text {
+    background: var(--brand_color);
+}
+
+.five_pillar_text h3 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: var(--literata);
+    color: #000;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: all linear 0.3s;
+}
+
+.five_pillars_main_box:hover h3 {
+    visibility: visible;
+    color: var(--primary_color);
+    opacity: 1;
+}
+
+.five_pillar_text p {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: var(--literata);
+    color: #020202;
+    text-align: center;
+    margin-top: 18px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all linear 0.3s;
+}
+
+.five_pillars_main_box:hover p {
+    visibility: visible;
+    opacity: 1;
+}
+
+.shahada {
+    top: 100px;
+}
+
+.salah_zakat {
+    top: 50px;
+}
+
+.some_text_of_Five_pillar p {
+    width: 595px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--IBM_PLEX);
+    color: var(--primary_color);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+/* ------------- five_pillars css end ------------- */
+/* ============== prayers_time css start ============= */
+#prayers_time {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background: var(--background_color);
+}
+
+.prayers_time_head h2 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: var(--literata);
+    color: var(--primary_color);
+    text-align: center;
+}
+
+.prayers_time_head p {
+    width: 594px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--IBM_PLEX);
+    color: var(--primary_color);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.prayers_time_calender_row {
+    margin-top: 82px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.claender h2 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--literata);
+    color: var(--primary_color);
+}
+
+.claender h3 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--literata);
+    color: var(--primary_color);
+    margin-top: 5px;
+}
+
+.prayer_time_schedule_row {
+    margin-top: 71px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.prayer_time_schedule {
+    width: 130px;
+    height: 98px;
+    background: var(--primary_color);
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: all linear .3s;
+}
+
+.prayer_time_schedule:hover {
+    width: 180px;
+    height: 173px;
+}
+
+.prayer_time_schedule h2 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--literata);
+    color: var(--background_color);
+    z-index: 99;
+}
+
+.prayer_time_schedule:hover h2 {
+    color: #ffff;
+    font-size: 32px;
+}
+
+.prayer_time_schedule p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--IBM_PLEX);
+    color: var(--background_color);
+    transition: all linear .3s;
+    z-index: 99;
+}
+
+.prayer_time_schedule:hover p {
+    color: #ffff;
+    font-size: 20px;
+}
+
+.prayer_time_schedule .image {
+    border: 2px solid #000;
+    border-radius: 20px;
+    position: absolute;
+    transform: scale(0);
+    opacity: 0;
+    transition: all linear .3s;
+    transition-delay: 0s;
+}
+
+.prayer_time_schedule:hover .image {
+    border-color: var(--brand_color);
+    transform: scale(1.1);
+    opacity: 1;
+    transition-delay: .25s;
+}
+
+.prayer_time_schedule .image img {
+    width: 173px;
+    height: 173px;
+    border-radius: 20px;
+}
+
+/* -------------------five pillars css part end-------------------- */
+/* ===================== audio css start ========================= */
+#audio {
+    padding-bottom: 30px;
+    background: var(--background_color);
+}
+
+.audio_head h2{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--literata);
+    color: var(--primary_color);
+
+
+}
+
+.audio_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.audio_img i {
+    font-size: 25px;
+}
+
+.audio_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.audio_icon button {
+    width: 25px;
+    height: 25px;
+    border: 2px solid var(--primary_color);
+    border-radius: 50%;
+    color: var(--primary_color);
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all linear 0.3s;
+}
+
+.audio_icon button:hover {
+    background: var(--brand_color);
+}
+
+.audio_icon .audio_img {
+    height: 45px;
+    width: 45px;
+    background: #D9D9D9;
+    border: 1px solid var(--primary_color);
+    border-radius: 50%;
+}
+
+.main_audio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.sura h3 {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--IBM_PLEX);
+    color: var(--primary_color);
+    margin: 8px 0 5px;
+}
+
+.music {
+    width: 368px;
+    height: 6px;
+    border: 1px solid var(--primary_color);
+    border-radius: 20px;
+    background: #fff;
+    position: relative;
+    z-index: 998;
+    cursor: pointer;
+}
+
+.music p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--IBM_PLEX);
+    color: var(--brand_color);
+    margin-left: 161px;
+    margin-top: 7px;
+}
+
+.music .musicon {
+    height: 4px;
+    border-radius: 20px;
+    background: #FFA900;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: music_on 5s linear forwards;
+}
+
+@keyframes music_on {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 50%;
+    }
+}
+
+.volume_icon {
+    color: var(--primary_color);
+    margin-bottom: 4px;
+
+}
+
+.volume_range {
+    width: 54px;
+    height: 6px;
+    border: 1px solid var(--primary_color);
+    border-radius: 20px;
+    background: #fff;
+    position: relative;
+    cursor: pointer;
+}
+
+.volume_range .volume_high {
+    height: 4px;
+    border-radius: 20px;
+    background: #FFA900;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: volum 10s linear forwards;
+}
+
+@keyframes volum {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 60%;
+    }
+}
+
+/* ----------------- audio css end ---------------- */
+/* ============== our service part css Start =========== */
+#our_service {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: var(--background_color);
+}
+
+.our_service_head h2 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: var(--literata);
+    color: #fff;
+    text-align: center;
+}
+
+.our_service_head p {
+    width: 505px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--IBM_PLEX);
+    color: var(--primary_color);
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 56px;
+}
+
+.our_service_row {
+    width: 1000px;
+    margin: 0% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.our_service_col {
+    width: 300px;
+    padding: 20px;
+    background: var(--secondary_color);
+    border: 1px solid rgba(147, 115, 52, 0.59);
+    transition: all linear.3s;
+    cursor: pointer;
+}
+
+.our_service_col:hover {
+    box-shadow: 0px 2px 10px var(--brand_color);
+}
+
+.our_service_col:hover .item_button a {
+    color: #937334;
+}
+
+.our_service_text h3 {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--IBM_PLEX);
+    color: #fff;
+    margin-top: 45px;
+}
+
+.main_div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11px;
+}
+
+.item_pragraph p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--IBM_PLEX);
+    color: var(--primary_color);
+}
+
+.item_button a {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--IBM_PLEX);
+    color: var(--background_color);
+    transition: all linear .3s;
+}
+
+/* ------------ Prayers_time css End -------------- */
+/* ==============features part start============= */
+#features {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: var(--background_color);
+}
+
+.features_head h2 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: var(--literata);
+    color: #ffffff;
+    text-align: center;
+}
+
+.features_head span {
+    color: var(--brand_color);
+}
+
+.features_head p {
+    width: 606px;
+    margin: 0% auto;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--IBM_PLEX);
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.features_col {
+    width: 508px;
+    padding: 9px 16px 10px 25px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    background: var(--secondary_color);
+    border: 2px solid rgba(147, 115, 52, 0.55);
+    box-shadow: -7px 4px 16px rgba(147, 115, 52, 0.52);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    transition: all linear .3s;
+    margin-bottom: 25px;
+    margin-left: 200px;
+    cursor: pointer;
+    --c: no-repeat linear-gradient(#937334 0 0);
+    background:
+        var(--c) calc(-101% + var(--i, 0)*101%) 100% / 50.1% calc(100%*var(--i, 0) + .08em),
+        var(--c) calc(201% - var(--i, 0)*101%) 0 / 50.1% calc(100%*var(--i, 0) + .08em);
+    transition: .3s calc(var(--i, 0)*.3s), background-position .3s calc(.3s - var(--i, 0)*.3s);
+}
+
+.features_col:hover {
+    border: 2px solid #937334;
+    --i: 1;
+}
+
+.features_col_img {
+    margin-left: 50px;
+}
+
+.features_img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background: #ffffff;
+}
+
+.features_img img {
+    padding: 4px;
+}
+.features_img .audio{
+    width: 50px;
+    height: 50px;
+    margin-top: 6px;
+    margin-left: 5px;
+}
+
+.features_item h2:nth-child(3) {
+    margin-left: 5px;
+}
+
+.features_item h2 {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--literata);
+    color: #ffffff;
+    margin-right: 0px;
+}
+
+.features_text p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--IBM_PLEX);
+    color: #ffffff;
+}
+
+.features_col_img img {
+    width: 257px !important;
+    height: 516px;
+    border-radius: 20px;
+    cursor: pointer;
+    animation: f_img 6s ease-in-out infinite;
+}
+
+@keyframes f_img {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-30px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+/* -------------features part end--------------- */
+/* ============= support part start============== */
+#support {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: var(--background_color);
+}
+
+.support_row {
+    margin-left: 145px;
+    margin-top: 50px;
+}
+
+.support_heading h2 {
+    width: 303px;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: var(--literata);
+    color: var(--brand_color);
+}
+
+.support_heading p {
+    width: 595px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--IBM_PLEX);
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.support_counter_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.support_counter_col {
+    width: 25px;
+    height: 35px;
+    background: #ffffff;
+    border-radius: 3px;
+    transition: all linear .3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.support_counter_col:hover {
+    background: var(--brand_color);
+}
+
+.support_counter_col .counter {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--IBM_PLEX);
+    color: #000000;
+    transition: all linear .3s;
+}
+
+.support_counter_colam p {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--IBM_PLEX);
+    color: var(--brand_color);
+}
+
+.support_counter_heading h4 {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--IBM_PLEX);
+    color: #ffffff;
+    text-align: center;
+}
+
+.support_map_img {
+    position: relative;
+    width: 318px;
+}
+
+.support_map_icon i {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: var(--secondary_color);
+}
+
+.support_map_icon i:nth-child(2) {
+    top: 16%;
+    left: 26%;
+}
+
+.support_map_icon i:nth-child(3) {
+    top: 32%;
+    left: 20%;
+}
+
+.support_map_icon i:nth-child(4) {
+    top: 32%;
+    left: 50%;
+}
+
+.support_map_icon i:nth-child(5) {
+    top: 45%;
+    left: 45%;
+}
+
+.support_map_icon i:nth-child(6) {
+    top: 28%;
+    left: 81%;
+}
+
+.support_map_icon i:nth-child(7) {
+    top: 35%;
+    left: 74%;
+}
+
+.support_map_icon i:nth-child(8) {
+    top: 51%;
+    left: 61%;
+}
+
+.support_map_icon i:nth-child(9) {
+    top: 60%;
+    left: 64%;
+}
+
+.support_map_icon i:nth-child(10) {
+    top: 47%;
+    left: 18%;
+}
+
+.support_map_icon i:nth-child(11) {
+    top: 63%;
+    left: 25%;
+}
+
+.support_map_icon i:nth-child(12) {
+    top: 68%;
+    left: 45%;
+}
+
+.support_map_icon i:nth-child(13) {
+    top: 62%;
+    left: 84%;
+}
+
+.support_map_icon i:nth-child(14) {
+    top: 75%;
+    left: 88%;
+}
+
+.support_map_icon .one {
+    animation: one 7s linear infinite;
+}
+
+@keyframes one {
+    from {
+        color: var(--background_color);
+        transform: scale(1.2);
+    }
+
+    to {
+        color: var(--brand_color);
+        text-shadow: 3px 3px 20px var(--brand_color),
+            -2px 1px 30px var(--brand_color);
+        transform: scale(1.2);
+    }
+}
+
+.support_map_icon .two {
+    animation: two 6s linear infinite;
+}
+
+@keyframes two {
+    from {
+        color: var(--background_color);
+        transform: scale(1.2);
+    }
+
+    to {
+        color: var(--brand_color);
+        text-shadow: 3px 3px 20px var(--brand_color),
+            -2px 1px 30px var(--brand_color);
+        transform: scale(1.2);
+    }
+}
+
+.support_map_icon .three {
+    animation: three 10s linear infinite;
+}
+
+@keyframes three {
+    from {
+        color: var(--background_color);
+        transform: scale(1.2);
+    }
+
+    to {
+        color: var(--brand_color);
+        text-shadow: 3px 3px 20px var(--brand_color),
+            -2px 1px 30px var(--brand_color);
+        transform: scale(1.2);
+    }
+}
+
+.support_map_icon .four {
+    animation: four 6s linear infinite;
+}
+
+@keyframes four {
+    from {
+        color: var(--background_color);
+        transform: scale(1.2);
+    }
+
+    to {
+        color: var(--brand_color);
+        text-shadow: 3px 3px 20px var(--brand_color),
+            -2px 1px 30px var(--brand_color);
+        transform: scale(1.2);
+    }
+}
+
+/* -------------support part end----------------- */
+/* ============= mission part start============== */
+#mission {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: var(--background_color);
+}
+
+.mission_col img {
+    width: 431px !important;
+    height: 601px;
+    border-radius: 150px;
+    margin-left: 150px;
+}
+
+.mission_row {
+    margin-left: 50px;
+    margin-top: 120px;
+}
+
+.mission_heading h2 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: var(--literata);
+    color: #ffffff;
+}
+
+.mission_heading p {
+    width: 475px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--IBM_PLEX);
+    color: #ffffff;
+    margin-top: 23px;
+    margin-bottom: 25px;
+}
+
+.mission_head_col {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.mission_head_col h3 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background: #ffffff;
+    border: 2px solid transparent;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--IBM_PLEX);
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all linear .3s;
+    cursor: pointer;
+}
+
+.mission_head_col:hover h3 {
+    border: 2px solid #937334;
+}
+
+.mission_head_col p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--IBM_PLEX);
+    color: #ffffff;
+    transition: all linear .3s;
+    cursor: pointer;
+}
+
+.mission_head_col p:hover {
+    font-weight: 600;
+}
+
+/* -------------mission part end----------------- */
+/* ============= Donation part start============== */
+#donation {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: var(--background_color);
+}
+
+.donation_heading h2 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: var(--literata);
+    color: #ffffff;
+    text-align: center;
+}
+
+.donation_heading p {
+    width: 560px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--literata);
+    color: #ffffff;
+    text-align: center;
+    margin: 0% auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.donation_row {
+    width: 940px;
+    margin: 0% auto;
+    gap: 20px;
+}
+.donation_col{
+    width: 300px;
+}
+.donation_img {
+    position: relative;
+}
+
+.donation_img img {
+    width: 300px !important;
+    height: 271px;
+    border-top-left-radius: 10px;
+}
+
+.donation_circle h2 {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: 1px solid var(--brand_color);
+    background: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--literata);
+    color: #000000;
+    transition: all linear .4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 89%;
+    left: 39%;
+    cursor: pointer;
+}
+
+.donation_col:hover .donation_circle h2 {
+    background: var(--brand_color);
+    color: #ffffff;
+    box-shadow: 0px 1px 2px #000000;
+}
+
+.donation_head {
+    width: 300px;
+    padding: 40px 14px 10px 20px;
+    background: #ffffff;
+    border-bottom-right-radius: 10px;
+    transition: all linear .4s;
+    cursor: pointer;
+}
+
+.donation_col:hover .donation_head {
+    background: var(--brand_color);
+}
+
+.donation_head h3 {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--literata);
+    color: #000000;
+    transition: all linear .3s;
+}
+
+.donation_col:hover .donation_head h3 {
+    color: #ffffff;
+}
+
+.donation_head h4 {
+    width: 174px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--IBM_PLEX);
+    color: #000000;
+    margin-top: 8px;
+    margin-bottom: 13px;
+    transition: all linear .3s;
+}
+
+.donation_col:hover .donation_head h4 {
+    color: #ffffff;
+}
+
+.donation_target {
+    display: flex;
+    justify-content: space-between;
+}
+
+.donation_target p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--IBM_PLEX);
+    color: #000000;
+    transition: all linear .3s;
+}
+
+.donation_col:hover .donation_target p {
+    color: #ffffff;
+}
+
+.donation_target span {
+    font-weight: 700;
+    transition: all linear .3s;
+}
+
+.donation_col:hover .donation_target span {
+    color: #ffffff;
+}
+
+.donation_row ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.donation_row ul button {
+    font-size: 0;
+    width: 13px;
+    height: 13px;
+    background: #ffffff;
+    border-radius: 50px;
+    border: 1px solid #000000;
+}
+
+.donation_row ul .slick-active button {
+    border: 1px solid var(--brand_color);
+    background: transparent;
+}
+
+.donation_button a {
+    width: 200px;
+    height: 50px;
+    background: var(--brand_color);
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--literata);
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0% auto;
+    transition: all linear .3s;
+}
+
+.donation_button a:hover {
+    background: transparent;
+    border: 1px solid var(--brand_color);
+    color: #ffffff;
+}
+
+/* -------------Donation part end----------------- */
+/* ============= blog part start============== */
+#blog {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: var(--background_color);
+}
+
+.blog_heading h2 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: var(--literata);
+    color: #ffffff;
+    text-align: center;
+}
+
+.blog_heading p {
+    width: 546px;
+    margin: 0% auto;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--IBM_PLEX);
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 66px;
+}
+
+.blog_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.blog_video video {
+    width: 300px;
+    height: 193px;
+}
+
+.blog_head {
+    width: 300px;
+    padding: 20px 10px 10px 20px;
+    background: var(--primary_color);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid transparent;
+    transition: all linear .5s;
+    cursor: pointer;
+}
+
+.blog_head:hover {
+    border: 1px solid var(--brand_color);
+    background: var(--secondary_color);
+}
+
+.dates {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dates_icon p {
+    font-size: 15px;
+    color: #000;
+    transition: all linear .3s;
+}
+
+.blog_head:hover .dates_icon p {
+    color: #ffffff;
+}
+
+.dates_icon p span {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--IBM_PLEX);
+    color: #000;
+    margin-left: 5px;
+    transition: all linear .3s;
+}
+
+.blog_head:hover .dates_icon p span {
+    color: #fff;
+}
+
+.comments p {
+    font-size: 15px;
+    color: #000;
+    transition: all linear .3s;
+}
+
+.blog_head:hover .comments p {
+    color: var(--primary_color);
+}
+
+.comments p span {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--IBM_PLEX);
+    color: #000;
+    margin-left: 5px;
+    align-items: center;
+    transition: all linear .3s;
+}
+
+.blog_head:hover .comments p span {
+    color: var(--primary_color);
+}
+
+.blog_head_text h3 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--literata);
+    color: var(--background_color);
+    margin-top: 12px;
+    margin-bottom: 10px;
+    transition: all linear .3s;
+}
+
+.blog_head:hover .blog_head_text h3 {
+    color: var(--primary_color);
+}
+
+.blog_head_text p {
+    width: 270px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--literata);
+    color: var(--background_color);
+    transition: all linear .3s;
+}
+
+.blog_head:hover .blog_head_text p {
+    color: var(--primary_color);
+}
+
+.read {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.read p {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--IBM_PLEX);
+    color: var(--brand_color);
+}
+
+.read i {
+    font-size: 15px;
+    color: var(--background_color);
+}
+
+.blog_head:hover .read i {
+    color: var(--primary_color);
+}
+
+/* -------------blog part end----------------- */
+/* ============= tean part start============== */
+#team{
+    padding: 50px 0px;
+    background: var(--background_color);
+}
+.team_heading h2 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: var(--literata);
+    color: var(--primary_color);
+    text-align: center;
+}
+
+.team_heading p {
+    width: 546px;
+    text-align: center;
+    margin: 0% auto;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--IBM_PLEX);
+    color: var(--primary_color);
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.slider_rotate_img{
+    position: relative;
+}
+.slider_rotate_img .rotated{
+    width: 400px;
+    animation: rotated 5s linear infinite;
+}
+@keyframes rotated {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.slider_img{
+    position: absolute;
+    top: 51px;
+    left: 50px;
+    z-index: 0;
+}
+.slider_img img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: relative;
+}
+.slider_img::before{
+    content: '';
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background:rgba(0, 0, 0, 0.70);
+    z-index: 1;
+    opacity: 0;
+    transition: all linear .3s;
+}
+.slider_img:hover::before{
+    opacity: 1;
+}
+.team_contact{
+    position: absolute;
+    top: 91%;
+    left: 29%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    opacity: 0;
+    transition: all linear .5s;
+}
+.slider_img:hover .team_contact{
+    top: 50%;
+    left: 29%;
+    opacity: 1;
+}
+
+.team_contact a{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    transition: all linear .2s;
+    border: 1px solid transparent;
+}
+.team_contact a:hover{
+    transform: scale(1.1);
+    background: transparent;
+    border-color:  white;
+}
+.team_contact a i{
+    font-size: 18px;
+    color: black;
+}
+.team_contact a:hover i{
+    color: #fff;
+}
+.member_name{
+    position: absolute;
+    top: 300px;
+    left: 77px;
+    z-index: 999;
+    transition: all linear .6s;
+    opacity: 0;
+}
+
+.slider_img:hover .member_name{
+    top: 237px;
+    left: 77px;
+    opacity: 1;
+}
+
+.member_name h2{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: var(--literata);
+    color: var(--primary_color);
+    text-align: center;
+
+}
+
+.member_name p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--literata);
+    color: var(--primary_color);
+    text-align: center;
+}
+/* -------------tean part end----------------- */
+/* =============== Apps Available css Start ================ */
+#apps_available {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    background: var(--background_color);
+}
+
+.apps_head h2 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: var(--IBM_PLEX);
+    color: var(--primary_color);
+    text-align: center;
+}
+
+.apps_head p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--IBM_PLEX);
+    color: #ffff;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.apps_available_for {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.android_img img {
+    height: 81px;
+}
+
+.apps_availavle_about h2 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--IBM_PLEX);
+    color: var(--brand_color);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.apps_availavle_about p {
+    width: 293px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--IBM_PLEX);
+    color: var(--primary_color);
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* --------------------------------------------- Apps Available css End -------------------------------------------- */
+/* ============================================ Total downloads part  css start ============================================ */
+#total_downloads {
+    padding-bottom: 60px;
+    background: var(--background_color);
+}
+
+.total_download_head h2 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--literata);
+    color: var(--primary_color);
+    text-align: center;
+}
+
+.download_counter_row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.download_counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.download_counter_img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download_counter_img img {
+    width: 100px;
+    height: 100px;
+    animation: img 5s linear infinite;
+}
+
+@keyframes img {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.download_counter_img h2 {
+    position: absolute;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: var(--literata);
+    color: var(--background_color);
+    top: 25%;
+    left: 8%;
+}
+
+.download_counter_img .left_one {
+    left: 18%;
+}
+
+.download_counter_img .left_two {
+    left: 18%;
+}
+
+.counter_about {
+    width: 150px;
+    background: var(--primary_color);
+    border: 1px solid var(--primary_color);
+    border-radius: 15px 15px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    transition: all linear .3s;
+}
+
+.counter_about:hover {
+    background: transparent;
+}
+
+.counter_about h2 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--literata);
+    color: var(--background_color);
+    margin-top: 15px;
+}
+
+.counter_about:hover h2 {
+    color: var(--primary_color);
+}
+
+.counter_about p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--IBM_PLEX);
+    color: var(--background_color);
+    margin-bottom: 10px;
+}
+
+.counter_about:hover p {
+    color: var(--primary_color);
+}
+
+.counter_reating_star {
+    display: flex;
+    gap: 5px;
+}
+
+.counter_reating_star i {
+    margin-top: 10px;
+    color: #FFA900;
+    margin-bottom: 10px;
+}
+
+/* --------- Total downloads part css end --------*/
+/* ============= footer css start ============= */
+#footer {
+    padding-top: 50px;
+    background: var(--background_color);
+}
+
+.footer_logo {
+    width: 251px;
+    height: 51px;
+}
+
+.footer_icon ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 45px;
+}
+
+.footer_icon ul li a {
+    width: 45px;
+    height: 45px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    background: var(--primary_color);
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: all linear 0.3s;
+}
+
+.footer_icon ul li a:hover {
+    transform: scale(1.1);
+    background: transparent;
+    border-color: white;
+}
+.footer_icon ul li a i{
+    font-size: 18px;
+    color: #000;
+    transition: all linear .3s;
+}
+.footer_icon ul li a:hover i{
+    color: #fff;
+}
+.underline {
+    width: 100%;
+    height: 3px;
+    background: var(--brand_color);
+    margin: 20px 0 30px;
+}
+
+.footer_text_head h2 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--IBM_PLEX);
+    color: var(--primary_color);
+    margin-bottom: 15px;
+}
+.footer_text_head ul{
+    margin-left: 0px;
+}
+.footer_text_head ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--IBM_PLEX);
+    color: var(--primary_color);
+    margin-bottom: 10px;
+    position: relative;
+    transition: all linear 0.3s;
+}
+
+.footer_text_head ul li a:hover {
+    color: var(--brand_color);
+}
+
+.footer_text_head ul li a::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: var(--brand_color);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: all linear 0.3s;
+}
+
+.footer_text_head ul li a:hover::after {
+    width: 100%;
+    opacity: 1;
+}
+
+.footer_text ul li span {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--IBM_PLEX);
+    color: var(--primary_color);
+    margin-right: 40px;
+}
+.footer_text ul li{
+    margin-bottom: 10px;
+}
+.footer_text ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--IBM_PLEX);
+    color: var(--primary_color);
+    transition: all linear .3s;
+}
+.footer_text ul li a:hover{
+    color: var(--brand_color);
+}
+.footer_text ul li .mail {
+    margin-right: 56px;
+}
+
+.fotter_button {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.fotter_button a {
+    height: 50px;
+    width: 50px;
+    background: transparent;
+    border-radius: 50px;
+    border: 1px solid var(--brand_color);
+    overflow: hidden;
+    transition: all linear 0.3s;
+    margin-top: 80px;
+}
+
+.fotter_button a:hover {
+    width: 200px;
+    height: 50px;
+}
+
+.fotter_button a .footer_icon_img {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid var(--brand_color);
+    background: transparent;
+    padding: 10px;
+}
+.footer_icon_img img{
+    width: 24px !important;
+    height: 27px;
+    margin-left: 2px;
+}
+
+.fotter_button a span {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--literata);
+    color: var(--primary_color);
+    margin-left: 14px;
+}
+
+.underline2 {
+    margin: 60px 0 25px;
+}
+
+.copy_right p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--literata);
+    color: var(--primary_color);
+    text-align: center;
+}
+
+/* -------- footer css end ------------*/

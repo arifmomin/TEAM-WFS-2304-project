@@ -1,0 +1,2754 @@
+@media (min-width: 0px) and (max-width: 575.98px) {
+
+    /* ========================== back to top button ================================ */
+    .back_to_top {
+        width: 30px;
+        height: 30px;
+        right: 2%;
+
+    }
+
+    /* -------------------------- back to top button -------------------------------- */
+    /* ========================= menu part start ================================================= */
+    .main_menu .nav_icon {
+        color: #937334;
+    }
+
+    .main_menu ul {
+        align-items: center;
+        background: #937334;
+        z-index: 999;
+        border-radius: 10px;
+        padding: 10px 0;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-toggler {
+        background-color: #000;
+        border: 2px solid #937334;
+    }
+    .navbar-collapse {
+        z-index: 999;
+    }
+    .menu_logo_img {
+        width: 110px;
+        height: 38px;
+    }
+
+    /*  ------------------------- menu part end --------------------------------------------- */
+    /* ========================= Banner part start ========================================== */
+    .banner_head h1 {
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 0;
+        z-index: 1;
+    }
+
+    .banner_button_col a {
+        height: 32px;
+        width: 32px;
+        margin: 55px 0 0 10px;
+    }
+
+    .banner_button_col a:hover {
+        width: 130px;
+        height: 32px;
+    }
+
+    .banner_button_col a .banner_icon_img {
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        padding: 1px 2px 2px 2px;
+    }
+
+    .banner_button_col a span {
+        font-size: 12px;
+    }
+
+    .some_text_of_Five_pillar p {
+        width: 100%;
+        font-size: 10px;
+        margin-top: 70px;
+    }
+
+    .phone_frem {
+        width: 200px !important;
+        height: 368px;
+        margin-left: 50px;
+        background-size: 190px 350px;
+    }
+
+    .phone_img {
+        margin-top: 80px;
+        margin-left: 11px;
+    }
+
+    .phone_img img {
+        margin-top: 15px;
+        border-radius: 25px;
+        width: 167px;
+        height: 327px;
+        margin-right: 46px;
+    }
+
+    .img_safe_and_esey .safe_and_esey {
+        width: 81px;
+        height: 106px;
+        right: 0px;
+        bottom: 362px;
+    }
+
+    .img_safe_and_esey .safe_and_esey img {
+        width: 83px;
+        height: 106px;
+    }
+
+    .img_safe_and_esey span {
+        width: 40px;
+        font-size: 10px;
+        right: 18px;
+        bottom: 401px;
+    }
+
+    .banner_img_payer .img_payer {
+        width: 101px;
+        height: 70px;
+        top: 192px;
+        right: 220px;
+    }
+
+    .banner_img_payer .img_payer img {
+        width: 65px;
+        height: 45px;
+    }
+
+    .banner_img_payer span {
+        font-size: 10px;
+        top: 202px;
+        right: 253px;
+    }
+
+    /* ------------------------- Banner part end  ------------------------------------------- */
+
+    /* ========================= About part start ========================================== */
+    .about_img {
+        width: 320px;
+        height: 420px;
+        margin-top: 0px;
+        background-size: 285px;
+    }
+
+    .about_img img {
+        width: 200px !important;
+        height: 300px;
+    }
+
+    .about_head h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .about_head p {
+        width: 100%;
+        font-size: 10px;
+        margin: 10px 0 23px;
+        text-align: center;
+    }
+
+    .app_adveantae h3 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .accordin {
+        width: 295px;
+    }
+
+    .accordin .contentBx .label {
+        position: relative;
+        padding: 12px 10px 12px 12px;
+        border: 2px solid #000;
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        background: transparent;
+        box-shadow: 0px 7px 13px 0px rgba(191, 185, 185, 0.51);
+        display: flex;
+        /* flex-wrap: wrap; */
+        transition: all linear .3s;
+    }
+
+    .accordin .contentBx .label h4 {
+        width: 216px;
+        font-size: 12px;
+        font-weight: 600;
+        font-family: var(--IBM_PLEX);
+        color: #fff;
+    }
+
+    .accordin .contentBx .contant p {
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .accordin .contentBx .contant p span a {
+        font-size: 10px;
+    }
+
+    .read_button a {
+        width: 80px;
+        height: 22px;
+        font-size: 10px;
+        margin-top: 18px;
+    }
+
+    /* ------------------------- About part end  ------------------------------------------- */
+
+    /* ========================= Five_pillars part start ========================================== */
+    #five_pillars {
+        padding: 10px 0;
+    }
+
+    .five_pillars_head h2 {
+        font-size: 22px;
+        margin-bottom: 0px;
+    }
+
+    .five_pillars_islam {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-left: 0px;
+    }
+
+    .five_pillars_main_box {
+        width: 200px;
+        padding-top: 45px;
+    }
+
+    .five_pillars_main_box:hover .image_box {
+        top: 10px;
+    }
+
+    .image_box {
+        width: 65px;
+        height: 65px;
+        top: 100px;
+        left: 70px;
+    }
+
+    .five_pillar_text {
+        width: 200px;
+        padding: 40px 16px 20px;
+    }
+
+    .five_pillar_text h3 {
+        font-size: 20px;
+    }
+
+    .five_pillar_text p {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+    .shahada {
+        top: 0;
+    }
+
+    .salah_zakat {
+        top: 0;
+    }
+
+    /* ------------------------- Five_pillars part end  ------------------------------------------- */
+
+    /* ========================= Prayers Time part start ========================================== */
+    .prayers_time_head h2 {
+        font-size: 22px;
+    }
+
+    .prayers_time_head p {
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .prayers_time_calender_row {
+        margin-top: 50px;
+    }
+
+    .claender h2 {
+        font-size: 12px;
+    }
+
+    .claender h3 {
+        font-size: 12px;
+    }
+
+    .prayer_time_schedule_row {
+        margin-top: 71px;
+        margin-bottom: 86px;
+        flex-wrap: wrap;
+        margin-right: 16px;
+        margin-left: 20px;
+    }
+
+    .prayer_time_schedule {
+        width: 122px;
+        height: 122px;
+    }
+
+    .prayer_time_schedule:hover {
+        width: 122px;
+        height: 122px;
+    }
+
+    .prayer_time_schedule h2 {
+        font-size: 18px;
+    }
+
+    .prayer_time_schedule:hover h2 {
+        font-size: 18px;
+    }
+
+    .prayer_time_schedule p {
+        font-size: 12px;
+    }
+
+    .prayer_time_schedule:hover p {
+        font-size: 12px;
+    }
+
+    .prayer_time_schedule .image img {
+        width: 122px;
+        height: 122px;
+    }
+
+    .prayer_time_schedule:hover .image {
+        transform: scale(1);
+    }
+
+    /* ------------------------- Prayers Time part end  ------------------------------------------- */
+
+
+    /* ========================= Audio part start ========================================== */
+    .audio_head h2 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .audio_icon {
+        margin-top: 25px;
+    }
+
+    .audio_icon button {
+        width: 25px;
+        height: 25px;
+    }
+
+    .audio_icon .audio_img {
+        height: 25px;
+        width: 24px;
+    }
+
+    .audio_img i {
+        font-size: 16px;
+    }
+
+    .main_audio {
+        margin-top: 25px;
+    }
+
+    .music {
+        width: 190px;
+    }
+
+    .music p {
+        font-size: 10px;
+        margin-left: 80px;
+        margin-top: 7px;
+    }
+
+    .volume_icon {
+        margin-bottom: 3px;
+        margin-top: 16px;
+        font-size: 12px;
+    }
+
+    .volume_icon {
+        margin-bottom: 3px;
+        margin-top: 6px;
+        font-size: 12px;
+    }
+
+    /* ------------------------- Audio part end  ------------------------------------------- */
+
+    /* ========================= our service part start ========================================== */
+    .our_service_head h2 {
+        font-size: 22px;
+    }
+
+    .our_service_row {
+        width: 308px;
+    }
+
+    .our_service_head p {
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .our_service_col {
+        width: 200px;
+        padding: 20px 20px 5px 20px;
+    }
+
+    .our_service_text h3 {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .item_pragraph p {
+        font-size: 12px;
+    }
+
+    .item_button a {
+        font-size: 10px;
+    }
+
+    /* ------------------------- our service part end  ------------------------------------------- */
+
+    /* ========================= features part start ========================================== */
+    .features_head h2 {
+        font-size: 22px;
+    }
+
+    .features_head p {
+        width: 100%;
+        font-size: 10px;
+        margin-bottom: 50px;
+    }
+
+    .features_col {
+        width: 290px;
+        padding: 10px 15px 10px 15px;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+    .features_img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .features_item h2 {
+        font-size: 12px;
+        margin-right: 0px;
+    }
+
+    .features_text p {
+        font-size: 9px;
+    }
+
+    .features_col_img {
+        margin-left: 75px;
+        margin-top: 20px;
+    }
+
+    .features_col_img img {
+        width: 150px !important;
+        height: 315px;
+    }
+
+    /* ------------------------- features part end  ------------------------------------------- */
+
+    /* ========================= support part start ========================================== */
+    .support_row {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .support_heading h2 {
+        width: 100%;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .support_heading p {
+        width: 100%;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .support_counter_row {
+        margin-bottom: 65px;
+    }
+
+    .support_map_img {
+        width: 260px;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    /* ------------------------- support part end  ------------------------------------------- */
+
+    /* ========================= our mission part start ========================================== */
+    .mission_col img {
+        width: 220px !important;
+        height: 355px;
+        margin-left: 40px;
+        border-radius: 20px;
+    }
+
+    .mission_row {
+        margin-left: 0;
+        margin-top: 100px;
+    }
+
+    .mission_heading h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .mission_heading p {
+        width: 100%;
+        font-size: 10px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .mission_head_col h3 {
+        width: 25px;
+        height: 25px;
+        font-size: 16px;
+    }
+
+    .mission_head_col p {
+        font-size: 12px;
+    }
+
+    /* ------------------------- our mission part end  ------------------------------------------- */
+
+    /* ========================= donation part start ========================================== */
+    #donation {
+        padding-top: 20px;
+    }
+
+    .donation_heading h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .donation_heading p {
+        width: 100%;
+        font-size: 10px;
+        margin-top: 18px;
+    }
+
+    .donation_row ul {
+        gap: 10px;
+
+    }
+
+    .donation_row ul button {
+        width: 10px;
+        height: 10px;
+    }
+
+    .donation_circle h2 {
+        left: 12%;
+    }
+
+    .donation_row ul {
+        margin-right: 70%;
+    }
+
+    .donation_col {
+        width: 220px;
+    }
+
+    .donation_img img {
+        width: 230px !important;
+        height: 220px;
+        margin-left: 35px;
+    }
+
+    .donation_head {
+        width: 230px;
+        margin-left: 35px;
+    }
+
+    .donation_circle h2 {
+        position: absolute;
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+        top: 89%;
+        left: 13% !important;
+
+    }
+
+    .donation_head h3 {
+        font-size: 14px;
+    }
+
+    .donation_head h4 {
+        width: 174px;
+        font-size: 11px;
+    }
+
+    .donation_target p {
+        font-size: 10px;
+    }
+
+    .donation_button a {
+        width: 135px;
+        height: 40px;
+        font-size: 16px;
+
+
+    }
+
+    /* ------------------------- donation part end  ------------------------------------------- */
+
+    /* ========================= Letest blog part start ========================================== */
+    #blog {
+        padding-top: 30px;
+    }
+
+    .blog_heading h2 {
+        font-size: 22px;
+    }
+
+    .blog_heading p {
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .blog_video iframe{
+        width: 225px;
+        height: 200px;
+    }
+
+    .blog_head {
+        width: 225px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .dates_icon p {
+        font-size: 10px;
+    }
+
+    .comments p {
+        font-size: 10px;
+    }
+
+    .dates_icon p span {
+        font-size: 10px;
+    }
+
+    .comments p span {
+        font-size: 10px !important;
+    }
+
+    .blog_head_text h3 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .blog_head_text p {
+        width: 195px;
+        font-size: 10px;
+    }
+
+    .read {
+        margin-top: 12px;
+    }
+
+    .read p {
+        font-size: 10px;
+    }
+
+    .read i {
+        font-size: 13px;
+    }
+
+    /* ------------------------- Letest blog part end  ------------------------------------------- */
+
+    /* ========================= our team part start ========================================== */
+    .team_heading h2 {
+        font-size: 22px;
+    }
+
+    .team_heading p {
+        width: 100%;
+        font-size: 11px;
+    }
+
+    .slider_rotate_img .rotated {
+        width: 300px;
+    }
+
+    .slider_img {
+        position: absolute;
+        top: 37px;
+        left: 37px;
+    }
+
+    .slider_img img {
+        height: 229px;
+    }
+
+    .slider_img::before {
+        width: 229px;
+        height: 229px;
+    }
+
+    .team_contact {
+        position: absolute;
+        top: 83%;
+        left: 28%;
+    }
+
+    .slider_img:hover .team_contact {
+        top: 50%;
+        left: 28%;
+    }
+
+    .team_contact a {
+        width: 30px;
+        height: 30px;
+    }
+
+    .member_name {
+        top: 221px;
+        left: 68px;
+    }
+
+    .slider_img:hover .member_name {
+        top: 172px;
+        left: 65px;
+    }
+
+    .member_name h2 {
+        font-size: 16px;
+    }
+
+    .member_name p {
+        font-size: 14px;
+    }
+
+    /* ------------------------- our team part end  ------------------------------------------- */
+
+    /* ========================= Apps Available part start ========================================== */
+    .apps_head h2 {
+        font-size: 22px;
+    }
+
+    .apps_head p {
+        font-size: 10px;
+    }
+
+    .apps_availavle_about p {
+        width: 100%;
+        font-size: 12px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+
+    /* ------------------------- Apps Available part end  ------------------------------------------- */
+
+    /* ========================= Total download part start ========================================== */
+    .download_counter_img img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .download_counter_img h2 {
+        font-size: 24px;
+    }
+
+    .counter_about {
+        width: 100px;
+        margin-top: 5px;
+    }
+
+    .counter_about h2 {
+        font-size: 14px;
+    }
+
+    .counter_about p {
+        font-size: 12px;
+    }
+
+    .counter_reating_star i {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+
+    /* ------------------------- Total download part end  ------------------------------------------- */
+
+    /* ========================= Footer part start ========================================== */
+    .footer_logo {
+        height: 50px;
+        width: 130px;
+        margin: 0 auto;
+    }
+
+    .footer_icon ul {
+        margin-right: 55px;
+    }
+
+    .footer_icon ul li a {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer_icon ul li a i {
+        font-size: 14px;
+    }
+
+    .footer_text_head h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+
+    }
+
+    .footer_text_head ul li a {
+        font-size: 12px;
+        margin-bottom: 0px;
+
+    }
+
+    .footer_text_head {
+        margin-top: 30px;
+        margin-left: 108px;
+    }
+
+    .footer_text {
+        margin-left: 28px;
+    }
+
+    .footer_text ul li span {
+        font-size: 14px;
+        margin-right: 16px;
+    }
+
+    .footer_text ul li a {
+        font-size: 14px;
+    }
+
+    .footer_text ul li .mail {
+        margin-right: 31px;
+    }
+
+    .fotter_button {
+        gap: 11px;
+    }
+
+    .fotter_button a {
+        height: 30px;
+        width: 30px;
+        margin-top: 80px;
+    }
+
+    .fotter_button a:hover {
+        width: 110px;
+        height: 30px;
+    }
+
+    .fotter_button a span {
+        font-size: 11px;
+        margin-left: 7px;
+    }
+
+    .footer_icon_img img {
+        width: 22px !important;
+        height: 23px;
+    }
+
+    .fotter_button a .footer_icon_img {
+        width: 30px;
+        height: 30px;
+        padding: 0px;
+        padding-left: 2px;
+    }
+
+    .copy_right p {
+        font-size: 10px;
+    }
+
+    /* ------------------------- Footer part end  ------------------------------------------- */
+}
+
+/* ================= Small device responsive================ */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* ========================== back to top button ================================ */
+    .back_to_top {
+        width: 30px;
+        height: 30px;
+        right: 2%;
+
+    }
+
+    /* -------------------------- back to top button -------------------------------- */
+    /* ========================= menu part start ================================================= */
+    .main_menu .nav_icon {
+        color: #937334;
+    }
+
+    .main_menu ul {
+        align-items: center;
+        background: #937334;
+        z-index: 999;
+        border-radius: 10px;
+        padding: 10px 0;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-toggler {
+        background-color: #000;
+        border: 2px solid #937334;
+
+    }
+
+    .menu_logo_img {
+        width: 110px;
+        height: 38px;
+    }
+
+    .button a {
+        width: 150px;
+        height: 40px;
+        border: 1px solid black;
+    }
+
+    .main_menu .menu_icon a:hover {
+        color: black;
+    }
+
+    /*  ------------------------- menu part end --------------------------------------------- */
+    /* ========================= Banner part start ========================================== */
+    .banner_head h1 {
+        width: 100%;
+        font-size: 38px;
+        text-align: center;
+        margin-top: 0;
+        z-index: 1;
+    }
+
+    .banner_button_col a {
+        height: 30px;
+        width: 30px;
+        margin: 55px 0 0 10px;
+    }
+
+    .banner_button {
+        display: flex;
+        gap: 10px;
+        margin-left: 40%;
+    }
+
+    .banner_button_col a:hover {
+        width: 130px;
+        height: 30px;
+    }
+
+    .banner_button_col a .banner_icon_img {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        padding: 1px 2px 2px 2px;
+    }
+
+    .apple img {
+        width: 20px !important;
+        height: 22px;
+        margin-left: 2px;
+        margin-bottom: 5px;
+    }
+
+    .banner_button_col a span {
+        font-size: 12px;
+    }
+
+    .some_text_of_Five_pillar p {
+        width: 100%;
+        font-size: 10px;
+        margin-top: 70px;
+    }
+
+    .phone_frem {
+        width: 200px !important;
+        height: 368px;
+        margin-left: 153px;
+        background-size: 190px 350px;
+    }
+
+    .phone_img {
+        margin-top: 80px;
+        margin-left: 11px;
+    }
+
+    .phone_img img {
+        margin-top: 15px;
+        border-radius: 25px;
+        width: 167px;
+        height: 327px;
+        margin-right: 46px;
+    }
+
+    .img_safe_and_esey .safe_and_esey {
+        width: 81px;
+        height: 106px;
+        right: 124px;
+    }
+
+    .img_safe_and_esey .safe_and_esey img {
+        width: 83px;
+        height: 106px;
+    }
+
+    .img_safe_and_esey span {
+        width: 40px;
+        font-size: 10px;
+        right: 143px;
+    }
+
+    .banner_img_payer .img_payer {
+        width: 101px;
+        height: 70px;
+        top: 192px;
+        right: 342px;
+    }
+
+    .banner_img_payer .img_payer img {
+        width: 65px;
+        height: 45px;
+    }
+
+    .banner_img_payer span {
+        font-size: 10px;
+        top: 202px;
+        left: 104px;
+    }
+
+    /* ------------------------- Banner part end  ------------------------------------------- */
+
+    /* ========================= About part start ========================================== */
+    .about_img {
+        width: 320px;
+        height: 420px;
+        margin-top: 0px;
+        background-size: 285px;
+        margin-left: 132px;
+    }
+
+    .about_img img {
+        width: 200px !important;
+        height: 300px;
+    }
+
+    .about_head h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .about_head p {
+        width: 100%;
+        font-size: 10px;
+        margin: 10px 0 23px;
+        text-align: center;
+    }
+
+    .app_adveantae h3 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .accordin {
+        width: 295px;
+        margin-left: 106px;
+    }
+
+    .accordin .contentBx .label {
+        position: relative;
+        padding: 12px 10px 12px 12px;
+        border: 2px solid #000;
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        background: transparent;
+        box-shadow: 0px 7px 13px 0px rgba(191, 185, 185, 0.51);
+        display: flex;
+        /* flex-wrap: wrap; */
+        transition: all linear .3s;
+    }
+
+    .accordin .contentBx .label h4 {
+        width: 216px;
+        font-size: 12px;
+        font-weight: 600;
+        font-family: var(--IBM_PLEX);
+        color: #fff;
+    }
+
+    .accordin .contentBx .contant p {
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .accordin .contentBx .contant p span a {
+        font-size: 10px;
+    }
+
+    .read_button a {
+        width: 80px;
+        height: 22px;
+        font-size: 10px;
+        margin-top: 18px;
+        margin-left: 107px;
+    }
+
+    /* ------------------------- About part end  ------------------------------------------- */
+
+    /* ========================= Five_pillars part start ========================================== */
+    #five_pillars {
+        padding: 10px 0;
+    }
+
+    .five_pillars_head h2 {
+        font-size: 22px;
+        margin-bottom: 0px;
+    }
+
+    .five_pillars_islam {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-left: 0px;
+    }
+
+    .five_pillars_main_box {
+        width: 200px;
+        padding-top: 45px;
+    }
+
+    .five_pillars_main_box:hover .image_box {
+        top: 10px;
+    }
+
+    .some_text_of_Five_pillar p {
+        font-size: 12px;
+        width: 70%;
+    }
+
+    .image_box {
+        width: 65px;
+        height: 65px;
+        top: 100px;
+        left: 70px;
+    }
+
+    .five_pillar_text {
+        width: 200px;
+        padding: 40px 16px 20px;
+    }
+
+    .five_pillar_text h3 {
+        font-size: 20px;
+    }
+
+    .five_pillar_text p {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+    .shahada {
+        top: 0;
+    }
+
+    .salah_zakat {
+        top: 0;
+    }
+
+    /* ------------------------- Five_pillars part end  ------------------------------------------- */
+
+    /* ========================= Prayers Time part start ========================================== */
+    .prayers_time_head h2 {
+        font-size: 26px;
+    }
+
+    .prayers_time_head p {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .prayers_time_calender_row {
+        margin-top: 50px;
+    }
+
+    .claender h2 {
+        font-size: 12px;
+    }
+
+    .claender h3 {
+        font-size: 12px;
+    }
+
+    .prayer_time_schedule_row {
+        margin-top: 71px;
+        margin-bottom: 86px;
+        flex-wrap: wrap;
+        margin-right: 16px;
+        margin-left: 20px;
+    }
+
+    .prayer_time_schedule {
+        width: 122px;
+        height: 122px;
+    }
+
+    .prayer_time_schedule:hover {
+        width: 122px;
+        height: 122px;
+    }
+
+    .prayer_time_schedule h2 {
+        font-size: 18px;
+    }
+
+    .prayer_time_schedule:hover h2 {
+        font-size: 18px;
+    }
+
+    .prayer_time_schedule p {
+        font-size: 12px;
+    }
+
+    .prayer_time_schedule:hover p {
+        font-size: 12px;
+    }
+
+    .prayer_time_schedule .image img {
+        width: 122px;
+        height: 122px;
+    }
+
+    .prayer_time_schedule:hover .image {
+        transform: scale(1);
+    }
+
+    /* ------------------------- Prayers Time part end  ------------------------------------------- */
+
+
+    /* ========================= Audio part start ========================================== */
+    .audio_head h2 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .audio_icon {
+        margin-top: 25px;
+    }
+
+    .audio_icon button {
+        width: 25px;
+        height: 25px;
+    }
+
+    .audio_icon .audio_img {
+        height: 25px;
+        width: 24px;
+    }
+
+    .audio_img i {
+        font-size: 16px;
+    }
+
+    .main_audio {
+        margin-top: 25px;
+    }
+
+    .music {
+        width: 347px;
+    }
+
+    .music p {
+        font-size: 10px;
+        margin-left: 159px;
+        margin-top: 7px;
+    }
+
+    .volume_icon {
+        margin-bottom: 3px;
+        margin-top: 16px;
+        font-size: 12px;
+    }
+
+    .volume_icon {
+        margin-bottom: 3px;
+        margin-top: 6px;
+        font-size: 12px;
+    }
+
+    /* ------------------------- Audio part end  ------------------------------------------- */
+
+    /* ========================= our service part start ========================================== */
+    .our_service_head h2 {
+        font-size: 26px;
+    }
+
+    .our_service_head p {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .our_service_row {
+        width: 557px;
+    }
+
+    .our_service_col {
+        width: 200px;
+        padding: 20px 20px 5px 20px;
+    }
+
+    .our_service_text h3 {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .item_pragraph p {
+        font-size: 12px;
+    }
+
+    .item_button a {
+        font-size: 10px;
+    }
+
+    /* ------------------------- our service part end  ------------------------------------------- */
+
+    /* ========================= features part start ========================================== */
+    .features_head h2 {
+        font-size: 26px;
+    }
+
+    .features_head p {
+        width: 100%;
+        font-size: 12px;
+        margin-bottom: 50px;
+    }
+
+    .features_col {
+        width: 290px;
+        padding: 10px 15px 10px 15px;
+        margin-bottom: 20px;
+        margin-left: 109px;
+    }
+
+    .features_img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .features_item h2 {
+        font-size: 12px;
+        margin-right: 0px;
+    }
+
+    .features_text p {
+        font-size: 9px;
+    }
+
+    .features_col_img {
+        margin-left: 75px;
+        margin-top: 20px;
+    }
+
+    .features_col_img img {
+        width: 150px !important;
+        height: 315px;
+        margin-left: 110px;
+        margin-top: 30px;
+    }
+
+    /* ------------------------- features part end  ------------------------------------------- */
+
+    /* ========================= support part start ========================================== */
+    .support_row {
+        margin-left: 0;
+        margin-top: 2px;
+    }
+
+    .support_heading h2 {
+        width: 100%;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .support_heading p {
+        width: 100%;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .support_counter_row {
+        margin-bottom: 65px;
+    }
+
+    .support_map_img {
+        width: 260px;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    /* ------------------------- support part end  ------------------------------------------- */
+
+    /* ========================= our mission part start ========================================== */
+    .mission_col img {
+        width: 220px !important;
+        height: 355px;
+        margin-left: 145px;
+        border-radius: 20px;
+    }
+
+    .mission_row {
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+    .mission_heading h2 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .mission_heading p {
+        width: 100%;
+        font-size: 12px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .mission_head_row {
+        margin-left: 124px;
+    }
+
+    .mission_head_col h3 {
+        width: 25px;
+        height: 25px;
+        font-size: 16px;
+    }
+
+    .mission_head_col p {
+        font-size: 12px;
+    }
+
+    /* ------------------------- our mission part end  ------------------------------------------- */
+
+    /* ========================= donation part start ========================================== */
+    #donation {
+        padding-top: 0px;
+    }
+
+    .donation_heading h2 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .donation_heading p {
+        width: 100%;
+        font-size: 12px;
+        margin-top: 18px;
+    }
+
+    .donation_circle h2 {
+        left: 12%;
+    }
+
+    .donation_row ul {
+        margin-right: 45%;
+        gap: 10px;
+    }
+
+    .donation_row ul button {
+        width: 10px;
+        height: 10px;
+    }
+
+    .donation_col {
+        width: 220px;
+    }
+
+    .donation_img img {
+        width: 230px !important;
+        height: 220px;
+        margin-left: 35px;
+    }
+
+    .donation_head {
+        width: 230px;
+        margin-left: 35px;
+    }
+
+    .donation_circle h2 {
+        position: absolute;
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+        top: 89%;
+        left: 26% !important;
+
+    }
+
+    .donation_head h3 {
+        font-size: 14px;
+    }
+
+    .donation_head h4 {
+        width: 174px;
+        font-size: 11px;
+    }
+
+    .donation_target p {
+        font-size: 10px;
+    }
+
+    .donation_button a {
+        width: 165px;
+        height: 45px;
+        font-size: 16px;
+    }
+
+    .donation_row element {
+        width: 267px;
+    }
+
+    /* ------------------------- donation part end  ------------------------------------------- */
+
+    /* ========================= Letest blog part start ========================================== */
+    #blog {
+        padding-top: 30px;
+    }
+
+    .blog_heading h2 {
+        font-size: 26px;
+    }
+
+    .blog_heading p {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .blog_video iframe {
+        width: 225px;
+        height: 200px;
+    }
+
+    .blog_head {
+        width: 225px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .dates_icon p {
+        font-size: 10px;
+    }
+
+    .comments p {
+        font-size: 10px;
+    }
+
+    .dates_icon p span {
+        font-size: 10px;
+    }
+
+    .comments p span {
+        font-size: 10px !important;
+    }
+
+    .blog_head_text h3 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .blog_head_text p {
+        width: 195px;
+        font-size: 10px;
+    }
+
+    .read {
+        margin-top: 12px;
+    }
+
+    .read p {
+        font-size: 10px;
+    }
+
+    .read i {
+        font-size: 13px;
+    }
+
+    /* ------------------------- Letest blog part end  ------------------------------------------- */
+
+    /* ========================= our team part start ========================================== */
+    .team_heading h2 {
+        font-size: 26px;
+    }
+
+    .team_heading p {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .slider_row {
+        margin-left: 32px;
+    }
+
+    .slider_rotate_img .rotated {
+        width: 240px;
+    }
+
+    .slider_img {
+        position: absolute;
+        top: 26px;
+        left: 25px;
+    }
+
+    .slider_img img {
+        width: 188px;
+        height: 188px;
+    }
+
+    .slider_img::before {
+        width: 188px;
+        height: 188px;
+    }
+
+    .team_contact {
+        position: absolute;
+        top: 83%;
+        left: 25%;
+    }
+
+    .slider_img:hover .team_contact {
+        top: 48%;
+        left: 25%;
+    }
+
+    .team_contact a {
+        width: 30px;
+        height: 30px;
+    }
+
+    .member_name {
+        top: 221px;
+        left: 48px;
+    }
+
+    .slider_img:hover .member_name {
+        top: 145px;
+        left: 48px;
+    }
+
+    .member_name h2 {
+        font-size: 16px;
+    }
+
+    .member_name p {
+        font-size: 14px;
+    }
+
+    /* ------------------------- our team part end  ------------------------------------------- */
+
+    /* ========================= Apps Available part start ========================================== */
+    .apps_head h2 {
+        font-size: 26px;
+    }
+
+    .apps_head p {
+        font-size: 12px;
+    }
+
+    .apps_availavle_about p {
+        width: 100%;
+        font-size: 12px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+
+    /* ------------------------- Apps Available part end  ------------------------------------------- */
+
+    /* ========================= Total download part start ========================================== */
+    .download_counter_img img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .download_counter_img h2 {
+        font-size: 24px;
+    }
+
+    .counter_about {
+        width: 100px;
+        margin-top: 5px;
+    }
+
+    .counter_about h2 {
+        font-size: 14px;
+    }
+
+    .counter_about p {
+        font-size: 12px;
+    }
+
+    .counter_reating_star i {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+
+    /* ------------------------- Total download part end  ------------------------------------------- */
+
+    /* ========================= Footer part start ========================================== */
+    .footer_logo {
+        height: 50px;
+        width: 130px;
+    }
+
+    .footer_logo {
+        width: 180px;
+        margin-left: 160px;
+
+    }
+
+    .footer_icon ul {
+        margin-right: 175px;
+    }
+
+    .footer_icon ul li a {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer_icon ul li a i {
+        font-size: 14px;
+    }
+
+    .footer_text_head h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+
+    }
+
+    .footer_text_head ul li a {
+        font-size: 12px;
+        margin-bottom: 0px;
+
+    }
+
+    .footer_text_head {
+        margin-top: 30px;
+        margin-left: 225px;
+    }
+
+    .footer_text {
+        margin-left: 162px;
+    }
+
+    .footer_text ul li span {
+        font-size: 14px;
+        margin-right: 16px;
+    }
+
+    .footer_text ul li a {
+        font-size: 14px;
+    }
+
+    .footer_text ul li .mail {
+        margin-right: 31px;
+    }
+
+    .fotter_button {
+        gap: 11px;
+    }
+
+    .fotter_button a {
+        height: 30px;
+        width: 30px;
+        margin-top: 50px;
+    }
+
+    .footer_icon_img img {
+        width: 19px !important;
+        height: 21px;
+        margin-left: 2px;
+    }
+
+    .fotter_button a:hover {
+        width: 110px;
+        height: 30px;
+    }
+
+    .fotter_button a span {
+        font-size: 11px;
+        margin-left: 7px;
+    }
+
+    .fotter_button a .footer_icon_img {
+        width: 30px;
+        height: 30px;
+        padding: 0px;
+        padding-left: 2px;
+    }
+
+    .underline2 {
+        margin: 30px;
+    }
+
+    .copy_right p {
+        font-size: 10px;
+    }
+
+}
+
+/* ------------------------- Footer part end  ------------------------------------------- */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* ========================== back to top button ================================ */
+    .back_to_top {
+        width: 30px;
+        height: 30px;
+        right: 2%;
+
+    }
+
+    /* -------------------------- back to top button -------------------------------- */
+    /* ========================= menu part start ================================================= */
+    .main_menu .nav_icon {
+        color: #937334;
+    }
+
+    .main_menu ul {
+        align-items: center;
+        background: #937334;
+        z-index: 999;
+        border-radius: 10px;
+        padding: 10px 0;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-toggler {
+        background-color: #000;
+        border: 2px solid #937334;
+
+    }
+
+    .menu_logo_img {
+        width: 110px;
+        height: 38px;
+    }
+
+    .button a {
+        width: 150px;
+        height: 40px;
+        border: 1px solid black;
+    }
+
+    .main_menu .menu_icon a:hover {
+        color: black;
+    }
+
+    /*  ------------------------- menu part end --------------------------------------------- */
+    /* ========================= Banner part start ========================================== */
+    .banner_head h1 {
+        width: 100%;
+        font-size: 38px;
+        text-align: center;
+        margin-top: 0;
+        z-index: 1;
+    }
+
+    .banner_button{
+        display: flex;
+        gap: 10px;
+        margin-left: 286px;
+    }
+    .banner_button_col a {
+        height: 50px;
+        width: 50px;
+        background: transparent;
+        border-radius: 50px;
+        border: 1px solid var(--brand_color);
+        overflow: hidden;
+        transition: all linear 0.3s;
+        margin: 73px 0 0 10px;
+    }
+     
+    .banner_button_col a:hover {
+        width: 200px;
+        height: 50px;
+    }
+    
+    .banner_button_col a .banner_icon_img {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        background: transparent;
+        padding: 10px;
+        box-shadow: -3px 1px 16px 10px #937334;
+    }
+    .apple img{
+        width: 24px !important;
+        height: 28px;
+        margin-left: 2px;
+    }
+    .banner_button_col a span {
+        font-size: 18px;
+        font-weight: 700;
+        font-family: var(--literata);
+        color: var(--primary_color);
+        margin-left: 14px;
+    }
+    .some_text_of_Five_pillar p {
+        width: 100%;
+        font-size: 10px;
+        margin-top: 70px;
+    }
+
+    .phone_frem {
+        width: 200px !important;
+        height: 368px;
+        margin-left: 258px;
+        background-size: 190px 350px;
+    }
+
+    .phone_img {
+        margin-top: 80px;
+        margin-left: 11px;
+    }
+
+    .phone_img img {
+        margin-top: 15px;
+        border-radius: 25px;
+        width: 167px;
+        height: 327px;
+        margin-right: 46px;
+    }
+
+    .img_safe_and_esey .safe_and_esey {
+        width: 81px;
+        height: 106px;
+        right: 197px;
+    }
+
+    .img_safe_and_esey .safe_and_esey img {
+        width: 83px;
+        height: 106px;
+    }
+
+    .img_safe_and_esey span {
+        width: 40px;
+        font-size: 10px;
+        right: 217px;
+    }
+
+    .banner_img_payer .img_payer {
+        width: 101px;
+        height: 70px;
+        top: 187px;
+        left: 180px;
+    }
+    .banner_img_payer .img_payer img {
+        width: 65px;
+        height: 45px;
+    }
+    .banner_img_payer span {
+        font-size: 10px;
+        top: 198px;
+        left: 211px;
+    }
+
+    /* ------------------------- Banner part end  ------------------------------------------- */
+
+    /* ========================= About part start ========================================== */
+    .about_img {
+        width: 320px;
+        height: 420px;
+        margin-top: 0px;
+        background-size: 285px;
+        margin-left: 170px;
+    }
+
+    .about_img img {
+        width: 200px !important;
+        height: 300px;
+    }
+
+    .about_head h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .about_head p {
+        width: 100%;
+        font-size: 10px;
+        margin: 10px 0 23px;
+        text-align: center;
+    }
+
+    .app_adveantae h3 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .accordin {
+        width: 295px;
+        margin-left: 183px;
+    }
+
+    .accordin .contentBx .label {
+        position: relative;
+        padding: 12px 10px 12px 12px;
+        border: 2px solid #000;
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        background: transparent;
+        box-shadow: 0px 7px 13px 0px rgba(191, 185, 185, 0.51);
+        display: flex;
+        /* flex-wrap: wrap; */
+        transition: all linear .3s;
+    }
+
+    .accordin .contentBx .label h4 {
+        width: 216px;
+        font-size: 12px;
+        font-weight: 600;
+        font-family: var(--IBM_PLEX);
+        color: #fff;
+    }
+
+    .accordin .contentBx .contant p {
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .accordin .contentBx .contant p span a {
+        font-size: 10px;
+    }
+
+    .read_button a {
+        width: 80px;
+        height: 22px;
+        font-size: 10px;
+        margin-top: 18px;
+        margin-left: 182px;
+    }
+
+    /* ------------------------- About part end  ------------------------------------------- */
+
+    /* ========================= Five_pillars part start ========================================== */
+    #five_pillars {
+        padding: 10px 0;
+    }
+
+    .five_pillars_head h2 {
+        font-size: 22px;
+        margin-bottom: 0px;
+    }
+
+    .five_pillars_islam {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-left: 0px;
+    }
+
+    .five_pillars_main_box {
+        width: 200px;
+        padding-top: 45px;
+    }
+
+    .five_pillars_main_box:hover .image_box {
+        top: 10px;
+    }
+
+    .some_text_of_Five_pillar p {
+        font-size: 12px;
+        width: 70%;
+    }
+
+    .image_box {
+        width: 65px;
+        height: 65px;
+        top: 100px;
+        left: 70px;
+    }
+
+    .five_pillar_text {
+        width: 200px;
+        padding: 40px 16px 20px;
+    }
+
+    .five_pillar_text h3 {
+        font-size: 20px;
+    }
+
+    .five_pillar_text p {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+
+    .shahada {
+        top: 0;
+    }
+
+    .salah_zakat {
+        top: 0;
+    }
+
+    /* ------------------------- Five_pillars part end  ------------------------------------------- */
+
+    /* ========================= Prayers Time part start ========================================== */
+    .prayers_time_head h2 {
+        font-size: 26px;
+    }
+
+    .prayers_time_head p {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .prayers_time_calender_row {
+        margin-top: 50px;
+    }
+
+    .claender h2 {
+        font-size: 12px;
+    }
+
+    .claender h3 {
+        font-size: 12px;
+    }
+
+    .prayer_time_schedule_row {
+        margin-top: 71px;
+        margin-bottom: 86px;
+        flex-wrap: wrap;
+        margin-right: 16px;
+        margin-left: 20px;
+    }
+
+    .prayer_time_schedule {
+        width: 122px;
+        height: 122px;
+    }
+
+    .prayer_time_schedule:hover {
+        width: 122px;
+        height: 122px;
+    }
+
+    .prayer_time_schedule h2 {
+        font-size: 18px;
+    }
+
+    .prayer_time_schedule:hover h2 {
+        font-size: 18px;
+    }
+
+    .prayer_time_schedule p {
+        font-size: 12px;
+    }
+
+    .prayer_time_schedule:hover p {
+        font-size: 12px;
+    }
+
+    .prayer_time_schedule .image img {
+        width: 122px;
+        height: 122px;
+    }
+
+    .prayer_time_schedule:hover .image {
+        transform: scale(1);
+    }
+
+    /* ------------------------- Prayers Time part end  ------------------------------------------- */
+
+
+    /* ========================= Audio part start ========================================== */
+    .audio_head h2 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .audio_icon {
+        margin-top: 25px;
+    }
+
+    .audio_icon button {
+        width: 25px;
+        height: 25px;
+    }
+
+    .audio_icon .audio_img {
+        height: 25px;
+        width: 24px;
+    }
+
+    .audio_img i {
+        font-size: 16px;
+    }
+
+    .main_audio {
+        margin-top: 25px;
+    }
+
+    .music {
+        width: 347px;
+    }
+
+    .music p {
+        font-size: 10px;
+        margin-left: 159px;
+        margin-top: 7px;
+    }
+
+    .volume_icon {
+        margin-bottom: 3px;
+        margin-top: 16px;
+        font-size: 12px;
+    }
+
+    .volume_icon {
+        margin-bottom: 3px;
+        margin-top: 6px;
+        font-size: 12px;
+    }
+
+    /* ------------------------- Audio part end  ------------------------------------------- */
+
+    /* ========================= our service part start ========================================== */
+    .our_service_head h2 {
+        font-size: 26px;
+    }
+
+    .our_service_head p {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .our_service_row {
+        width: 557px;
+    }
+
+    .our_service_col {
+        width: 200px;
+        padding: 20px 20px 5px 20px;
+    }
+
+    .our_service_text h3 {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .item_pragraph p {
+        font-size: 12px;
+    }
+
+    .item_button a {
+        font-size: 10px;
+    }
+
+    /* ------------------------- our service part end  ------------------------------------------- */
+
+    /* ========================= features part start ========================================== */
+    .features_head h2 {
+        font-size: 26px;
+    }
+
+    .features_head p {
+        width: 100%;
+        font-size: 12px;
+        margin-bottom: 50px;
+    }
+
+    .features_col {
+        width: 290px;
+        padding: 10px 15px 10px 15px;
+        margin-bottom: 20px;
+        margin-left: 175px;
+    }
+
+    .features_img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .features_item h2 {
+        font-size: 12px;
+        margin-right: 0px;
+    }
+
+    .features_text p {
+        font-size: 9px;
+    }
+
+    .features_col_img {
+        margin-left: 75px;
+        margin-top: 20px;
+    }
+
+    .features_col_img img {
+        width: 199px !important;
+        height: 343px;
+        margin-left: 181px;
+        margin-top: 30px;
+    }
+    /* ------------------------- features part end  ------------------------------------------- */
+
+    /* ========================= support part start ========================================== */
+    .support_row {
+        margin-left: 0;
+        margin-top: 2px;
+    }
+
+    .support_heading h2 {
+        width: 100%;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .support_heading p {
+        width: 100%;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .support_counter_row {
+        margin-bottom: 65px;
+    }
+
+    .support_map_img {
+        width: 260px;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    /* ------------------------- support part end  ------------------------------------------- */
+
+    /* ========================= our mission part start ========================================== */
+    .mission_col img {
+        width: 220px !important;
+        height: 355px;
+        margin-left: 227px;
+        border-radius: 20px;
+    }
+
+    .mission_row {
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+    .mission_heading h2 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .mission_heading p {
+        width: 100%;
+        font-size: 12px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .mission_head_row {
+        margin-left: 216px;
+    }
+
+    .mission_head_col h3 {
+        width: 25px;
+        height: 25px;
+        font-size: 16px;
+    }
+
+    .mission_head_col p {
+        font-size: 12px;
+    }
+
+    /* ------------------------- our mission part end  ------------------------------------------- */
+
+    /* ========================= donation part start ========================================== */
+    #donation {
+        padding-top: 0px;
+    }
+
+    .donation_heading h2 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .donation_heading p {
+        width: 100%;
+        font-size: 12px;
+        margin-top: 18px;
+    }
+
+    .donation_circle h2 {
+        left: 12%;
+    }
+
+    .donation_row ul {
+        margin-right: 45%;
+        gap: 10px;
+    }
+
+    .donation_row ul button {
+        width: 10px;
+        height: 10px;
+    }
+
+    .donation_col {
+        width: 220px;
+    }
+
+    .donation_img img {
+        width: 230px !important;
+        height: 220px;
+        margin-left: 35px;
+    }
+
+    .donation_head {
+        width: 230px;
+        margin-left: 35px;
+    }
+
+    .donation_circle h2 {
+        position: absolute;
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+        top: 89%;
+        left: 40% !important;
+
+    }
+
+    .donation_head h3 {
+        font-size: 14px;
+    }
+
+    .donation_head h4 {
+        width: 174px;
+        font-size: 11px;
+    }
+
+    .donation_target p {
+        font-size: 10px;
+    }
+
+    .donation_button a {
+        width: 165px;
+        height: 45px;
+        font-size: 16px;
+    }
+
+    .donation_row element {
+        width: 267px;
+    }
+
+    /* ------------------------- donation part end  ------------------------------------------- */
+
+    /* ========================= Letest blog part start ========================================== */
+    #blog {
+        padding-top: 30px;
+    }
+
+    .blog_heading h2 {
+        font-size: 26px;
+    }
+
+    .blog_heading p {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .blog_video iframe {
+        width: 225px;
+        height: 200px;
+    }
+
+    .blog_head {
+        width: 225px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .dates_icon p {
+        font-size: 10px;
+    }
+
+    .comments p {
+        font-size: 10px;
+    }
+
+    .dates_icon p span {
+        font-size: 10px;
+    }
+
+    .comments p span {
+        font-size: 10px !important;
+    }
+
+    .blog_head_text h3 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .blog_head_text p {
+        width: 195px;
+        font-size: 10px;
+    }
+
+    .read {
+        margin-top: 12px;
+    }
+
+    .read p {
+        font-size: 10px;
+    }
+
+    .read i {
+        font-size: 13px;
+    }
+
+    /* ------------------------- Letest blog part end  ------------------------------------------- */
+
+    /* ========================= our team part start ========================================== */
+    .team_heading h2 {
+        font-size: 26px;
+    }
+
+    .team_heading p {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .slider_row {
+        margin-left: 32px;
+    }
+
+    .slider_rotate_img .rotated {
+        width: 240px;
+    }
+
+    .slider_img {
+        position: absolute;
+        top: 26px;
+        left: 25px;
+    }
+
+    .slider_img img {
+        width: 188px;
+        height: 188px;
+    }
+
+    .slider_img::before {
+        width: 188px;
+        height: 188px;
+    }
+
+    .team_contact {
+        position: absolute;
+        top: 83%;
+        left: 25%;
+    }
+
+    .slider_img:hover .team_contact {
+        top: 48%;
+        left: 25%;
+    }
+
+    .team_contact a {
+        width: 30px;
+        height: 30px;
+    }
+
+    .member_name {
+        top: 221px;
+        left: 48px;
+    }
+
+    .slider_img:hover .member_name {
+        top: 145px;
+        left: 48px;
+    }
+
+    .member_name h2 {
+        font-size: 16px;
+    }
+
+    .member_name p {
+        font-size: 14px;
+    }
+
+    /* ------------------------- our team part end  ------------------------------------------- */
+
+    /* ========================= Apps Available part start ========================================== */
+    .apps_head h2 {
+        font-size: 26px;
+    }
+
+    .apps_head p {
+        font-size: 12px;
+    }
+
+    .apps_availavle_about p {
+        width: 100%;
+        font-size: 12px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+
+    /* ------------------------- Apps Available part end  ------------------------------------------- */
+
+    /* ========================= Total download part start ========================================== */
+    .download_counter_img img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .download_counter_img h2 {
+        font-size: 24px;
+    }
+
+    .counter_about {
+        width: 100px;
+        margin-top: 5px;
+    }
+
+    .counter_about h2 {
+        font-size: 14px;
+    }
+
+    .counter_about p {
+        font-size: 12px;
+    }
+
+    .counter_reating_star i {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+
+    /* ------------------------- Total download part end  ------------------------------------------- */
+
+    /* ========================= Footer part start ========================================== */
+    .footer_logo {
+        height: 50px;
+        width: 130px;
+    }
+
+    .footer_logo {
+        width: 180px;
+        margin-left: 225px;
+
+    }
+
+    .footer_icon ul {
+        margin-right: 284px;
+    }
+
+    .footer_icon ul li a {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer_icon ul li a i {
+        font-size: 14px;
+    }
+
+    .footer_text_head h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+
+    }
+
+    .footer_text_head ul li a {
+        font-size: 12px;
+        margin-bottom: 0px;
+
+    }
+
+    .footer_text_head {
+        margin-top: 30px;
+        margin-left: 301px;
+    }
+
+    .footer_text {
+        margin-left: 218px;
+    }
+
+    .footer_text ul li span {
+        font-size: 14px;
+        margin-right: 16px;
+    }
+
+    .footer_text ul li a {
+        font-size: 14px;
+    }
+
+    .footer_text ul li .mail {
+        margin-right: 31px;
+    }
+
+    .fotter_button {
+        gap: 11px;
+    }
+
+    .fotter_button a {
+        height: 30px;
+        width: 30px;
+        margin-top: 50px;
+    }
+
+    .footer_icon_img img {
+        width: 19px !important;
+        height: 21px;
+        margin-left: 2px;
+    }
+
+    .fotter_button a:hover {
+        width: 110px;
+        height: 30px;
+    }
+
+    .fotter_button a span {
+        font-size: 11px;
+        margin-left: 7px;
+    }
+
+    .fotter_button a .footer_icon_img {
+        width: 30px;
+        height: 30px;
+        padding: 0px;
+        padding-left: 2px;
+    }
+
+    .underline2 {
+        margin: 30px;
+    }
+
+    .copy_right p {
+        font-size: 10px;
+    }
+}
